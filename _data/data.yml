@@ -3,191 +3,132 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: 강동욱
+  tagline: Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: kangdongouk@gmail.com
+  phone: 010-9476-7709
+  citizenship:
+  website: #do not add http://
+  linkedin:
+  xing:
+  github: kadragon
+  telegram: kadragon # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: # http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      - idiom: English
-        level: Native
+  languages:
+    - idiom: Golang
+      level: intermediate
+    - idiom: C, Python
+      level: basic
+    - idiom: Web
+      level: intermediate
+    - idiom: Terraform
+      level: basic
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+  interests:
+    - item: Algorithm Problem Solving
+      link: https://www.acmicpc.net/user/kadragon
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    사범대를 졸업하고, 전산실 조교로 일하면서 IT 자원 관리 및 지원하며 사용자 측면에서 생각하는 능력을 갖춤. 또한, 업무 효율을 위하여 다양한 프로그램을 개발함. 이를 기반으로 영재학교에서 <code>학사지원시스템</code>을 개발 운영하며 정보과학 교사로 근무하였음.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - degree: 컴퓨터교육과
+    university: 한국교원대학교
+    time: 2006.03 - 2010.02
+    details:
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - role: 교사 - 정보과학과
+    time: 2021.08 - 2022.02
+    company: 세종과학예술영재학교
+    details: |
+      - 프로그래밍 I 강의
+      - 학생 연구 지도
+      - 정보 동아리, 방송부 지도
+  - role: 교사 - 정보과
+    time: 2021.03 - 2021.08
+    company: 한민고등학교
+    details: |
+      - 프로그래밍 강의
+      - 정보 동아리 지도
+  - role: 교사 - 정보과학과
+    time: 2015.03 - 2020.02
+    company: 세종과학예술영재학교
+    details: |
+      - 강의: 정보과학개론, 프로그래밍 I, 객체지향프로그래밍, 프로젝트기반연구
+      - 방과후 학교: Physical Computing, C, Web, Python 등
+      - 학생 연구 지도
+      - 학사지원시스템 개발 및 운영
+  - role: 조교
+    time: 2013.09 - 2015.02
+    company: 한국교원대학교 교육정보원
+    details: |
+      - 학내 IT 자원 관리 및 지원
+      - 교육 콘텐츠 제작실 관리 및 지원
+      - 인터넷 커뮤니티 관리
+      - 학습관리시스템(LMS) 운영
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Projects
+  # intro: >
+  #   You can list your side projects or open source libraries in this
+  #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: 학사지원시스템
+      link: #
+      tagline: "<code>PHP</code>, <code>MariaDB</code><br />Web App으로 개발된 지원시스템으로 메시지 전송, 게시판, 야간 학생 지도관리, 상벌점, 표절검사, 시간표 작성 및 검색, 도서 신청, 수강신청, 독서 포트폴리오 관리, 방과후 학교, 연구활동 기록, 졸업논문 평가 등의 기능을 가지고 있음."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  # title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  # papers:
+  #   - title: The Art of Computer Programming
+  #     link: "#"
+  #     authors: Donald E. Knuth
+  #     conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  #     link: "#"
+  #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+  #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  #   - title: A syntax directed compiler for Algol 60
+  #     link: "#"
+  #     authors: Edgar T. Irons
+  #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  # title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  # toolset:
+  #   - name: Golang
+  #     level: 60%
 
-      - name: Javascript & jQuery
-        level: 98%
+  #   - name: HTML5 & CSS
+  #     level: 40%
 
-      - name: Angular
-        level: 98%
+  #   - name: SQL
+  #     level: 30%
 
-      - name: HTML5 & CSS
-        level: 95%
+  #   - name: Terraform
+  #     level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer:
